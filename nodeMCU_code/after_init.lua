@@ -1,0 +1,7 @@
+file.open("init.lua","w")
+file.writeline([[function startup()]])
+file.writeline([[    print('in startup')]])
+file.writeline([[    dofile('imp.lua')]])
+file.writeline([[    end]])
+file.writeline([[tmr.alarm(0,1500,0,startup)]])
+file.close()
