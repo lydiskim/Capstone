@@ -1,0 +1,3 @@
+{ "temp": 27.63, "co2": 790, "api_value": 55.6 }
+{ "temp": 27.69, "co2": 790, "api_value": 55.6 }
+{ "temp": 27.69, "co2": 780, "api_value": 55.6 }
